@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+  }
+body{
+    background-image: url(https://img4.thuthuatphanmem.vn/uploads/2020/04/28/hinh-nen-hoa-anh-dao-no_014723374.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+#menu {
+    width: 250px;
+    height: 100%;
+    background-color: #66cccc;
+    display: flex;
+    flex-direction: column;
+    background-color: yellow;
+    position: absolute;
+    border-style: solid;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.MN{
+    margin: 10px;
+    font-size: larger;
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.MT {
+    margin: 40px;
+    width: 185px;
+    height: 30px;
+    text-align: left;
+    font-size: 20px;
+}
+.MT a{
+    font-weight: bold;
+}
+.MT:hover{
+    font-size: 150%;
+}
+#main {
+    background-color: #66cccc;
+    margin-top: 200px;
+    margin-left: 465px;
+    margin-right: 15px;
+    margin-bottom: 0px;
+    size: 700px 700px;
+    position: absolute;
+    font-size: 18px;
+    border-style: groove;
+}
+#search-text-box{
+    font-size: 18px;
+    width: 750px;
+    height: 35px;
+}
+#SD {
+    margin-top: 280px;
+    margin-left: 325px;
+    position: absolute;
+    font-size: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.ST1{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(242, 67, 67);
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    font-size: 25px;
+}
+.ST2{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: aqua;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    font-size: 25px;
+}
+.ST3{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: lightgreen;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-style: solid;
+    font-size: 25px;
+}
+#B{
+    display: flex;
+    flex-direction: column;
+}
+.sst{
+    border-style: double;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    display: flex;
+}
+.stt p{
+    margin-left: 3px;
+    margin-right: 3px;
+}
+#QC{
+    background-color: aliceblue;
+    margin-left: 260px;
+    margin-top: 850px;
+    width: 1630px;
+    height: 110px;
+    position: absolute;
+    text-align: center;
+    border-style: groove;
+}
